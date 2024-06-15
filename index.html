@@ -357,19 +357,32 @@
     </footer>
     <div class="modal-overlay">
         <div class="modal">
+            <div class="close-box">
+            <button type="button" class="modal-close"><div class="close-icon"><svg class="close" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-button"></use>
+            </svg></div></button>
+            </div>
             <form class="form">
-                <fieldset>
-                  <legend>Leave your contacts and we will call you back</legend>
-                  <label><input type="text"></label>
-                  <label><input type="text"></label>
-                  <label><input type="text"></label>
-                  <label><input type="text"></label>
-                </fieldset>
+                <div class="form-filds">
+                  <p class="modal-header">Leave your contacts and we will call you back</p>
+                  <label class="modal-label" for="user-name">Name</label>
+                  <div class="modalfild-wrap"><input class="input-form" name="user-name" type="text" id="user-name">
+                    <svg class="modal-icon" width="18" height="24"><use href="./images/icons.svg#icon-person"></use></svg></div>
+                  <label class="modal-label" for="user-phone">Phone</label>
+                  <div class="modalfild-wrap"><input class="input-form" name="user-phone" type="text" id="user-phone">
+                    <svg class="modal-icon" width="18" height="24"><use href="./images/icons.svg#icon-phone"></use></svg></div>
+                  <label class="modal-label" for="user-mail">Email</label>
+                    <div class="modalfild-wrap"><input class="input-form" name="user-mail" type="text" id="user-mail">
+                    <svg class="modal-icon" width="18" height="24"><use href="./images/icons.svg#icon-email"></use></svg></div>
+                  <label class="modal-label" for="user-comments">Comment</label>
+                  <input class="input-form" name="user-comments" type="text" placeholder="Text input" id="user-comments">
+                </div>
                 <div class="">
-                    <input type="checkbox" class="" name="" value="" id="">
+                    <input type="checkbox" class="policy-chek" name="" value="" id="">
                     <label class="" for="">I accept the terms and conditions of the <a>Privacy Policy</a></label>
                   </div>
             </form>
+            <button class="button-send" type="submit">Send</button>
         </div>
     </div>
 </body>
