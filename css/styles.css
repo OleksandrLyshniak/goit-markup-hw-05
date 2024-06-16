@@ -735,12 +735,14 @@ label {
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+    display: block;
     margin: 0 auto;
 
     border: none;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
+    cursor: pointer;
     width: 169px;
     height: 56px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
