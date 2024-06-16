@@ -527,7 +527,7 @@ img {
 .footer-form {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 24px;
 }
