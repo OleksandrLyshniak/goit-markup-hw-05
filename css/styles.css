@@ -694,22 +694,29 @@ label {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 100%;
-    padding-top: 8px;
-    padding-left: 16px;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    padding: 8px 16px;
+    resize: none;
     outline: transparent;
+    background-color: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comments-form::placeholder {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
 
 .comments-form:focus {
-    border-color: #9747ff;
+    border-color: #4D5AE5;
 }
 
 .modal-label {
@@ -756,7 +763,7 @@ label {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 
@@ -769,6 +776,7 @@ label {
 .policy-box {
     display: flex;
     align-items: flex-start;
+    margin-bottom: 24px;
 }
 
 .modalfild-wrap {
@@ -786,7 +794,10 @@ label {
     color: #8e8f99;
 }
 
-
+.checkbox-icon {
+    display: inline-flex;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .policy-label .checkbox-icon {
     padding: 4px 3px;
