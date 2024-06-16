@@ -509,12 +509,14 @@ img {
 
 .footer-form input {
     border: 1px solid #fff;
+    color: #FFF;
     border-radius: 4px;
     width: 264px;
     height: 40px;
     background-color: rgba(0, 0, 0, 0);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     margin-right: 24px;
+    padding-left: 16px;
 }
 
 .footer-form {
@@ -535,7 +537,6 @@ img {
     line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
-    padding-left: 16px;
 }
 
 .footer-button {
@@ -575,7 +576,6 @@ img {
     height: 100%;
     z-index: 999;
     display: flex;
-    align-items: center;
     justify-content: center;
 
     opacity: 0;
@@ -588,6 +588,7 @@ img {
 }
 
 .modal {
+    top: 8%;
     position: absolute;
     background-color: #fcfcfc;
     border-radius: 4px;
