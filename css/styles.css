@@ -515,8 +515,13 @@ img {
     height: 40px;
     background-color: rgba(0, 0, 0, 0);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    margin-right: 24px;
     padding-left: 16px;
+}
+
+.form-placeholder {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
 }
 
 .footer-form {
@@ -524,10 +529,12 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 24px;
 }
 
 .form-button-icon {
     fill: white;
+    margin-left: 16px;
 }
 
 .footer-form input::placeholder {
@@ -547,16 +554,17 @@ img {
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+    min-width: 165px;
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 16px;
     border-radius: 4px;
     padding: 8px 24px;
     background-color: #4d5ae5;
     border: none;
+    cursor: pointer;
 }
 
 
