@@ -578,9 +578,8 @@ img {
     align-items: center;
     justify-content: center;
 
-    /* видалити по завершеннюо оформлення
     opacity: 0;
-    pointer-events: none; */
+    pointer-events: none;
 }
 
 .modal-overlay.is-open {
