@@ -786,6 +786,12 @@ label {
     color: #8e8f99;
 }
 
+.checkbox-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .policy-label .checkbox-icon {
     padding: 4px 3px;
     border-radius: 2px;
